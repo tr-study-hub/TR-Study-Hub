@@ -66,7 +66,7 @@ nav{background:linear-gradient(135deg,#ff8a1f,#ffb25c);box-shadow:0 10px 28px rg
 .hint{display:block;color:#6a6f98;font-size:12px;margin:-2px 0 6px}.pbar{height:6px;border-radius:6px;background:#e6e8f4;overflow:hidden;margin:6px 0}.pbar i{display:block;height:100%;width:0;transition:width .2s,background .2s}
 .pr{font-size:12px;color:#8a8fb0;display:flex;flex-wrap:wrap;gap:4px 12px}.pr .ok2{color:#1f9d6a;font-weight:600}
 </style></head><body><div id="app"></div><script>
-const CFG={firebase:{apiKey:'AIzaSyAZC7EG1D0dsinfbAn5xYvloRmwWq6bTz0',authDomain:'tr-study-hub.firebaseapp.com',projectId:'tr-study-hub',storageBucket:'tr-study-hub.firebasestorage.app',messagingSenderId:'741284455873',appId:'1:741284455873:web:c5201ba6020684bf093b40'},adminUid:'RlUfXpBQvoObZjGwpnwWHdND7Ry1',recaptchaKey:'',aiModel:'gemini-3.8-flash'};
+const CFG={firebase:{apiKey:'AIzaSyAZC7EG1D0dsinfbAn5xYvloRmwWq6bTz0',authDomain:'tr-study-hub.firebaseapp.com',projectId:'tr-study-hub',storageBucket:'tr-study-hub.firebasestorage.app',messagingSenderId:'741284455873',appId:'1:741284455873:web:c5201ba6020684bf093b40'},adminUid:'RlUfXpBQvoObZjGwpnwWHdND7Ry1',recaptchaKey:'6LfW9d4tAAAAAEm_ca47gyqbSpe0L738OUtSFxVF',aiModel:'gemini-3.8-flash'};
 const $=s=>document.querySelector(s),err=m=>{const e=$('#err');if(e)e.textContent=m};
 const esc=t=>String(t==null?'':t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let S={users:[],topics:[],banners:[],bot:{instr:'',notes:''}},V={tab:'home',m:'in',scr:'welcome',msgs:[],busy:false},fb={},AU=null,P=null,PL=0,READY=0,HALT=0,ERR='',ADMIN=false,UN=[];
